@@ -1,0 +1,45 @@
+ /*imports fonts from fonts.css*/
+@import url(./fonts.css);
+/*@import url(./partials/variables.css)*/
+
+.name_text{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about_me{
+    background-color: inherit;
+    color: rgb(238, 11, 151);
+    text-align: center;
+}
+
+.avatar{
+    height: 374px;
+    width: 380px;
+  
+}
+
+.social_media>a{
+    padding-left: 50px;
+    align-items: center;
+}
+
+.para1{
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+.font-div{
+    width: 30%;
+}
+
+
+
+/*--------------responsive--------------*/
+
+@media only screen and (man-width:1196px ){
+    .font-div{
+        padding: 42.5px 0px!important;
+    }
+}

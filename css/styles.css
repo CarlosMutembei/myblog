@@ -1,0 +1,27 @@
+.avatar{
+    height: 334px;
+    width: 100%;
+   /* margin-left: 40px;*/
+}
+
+.my-title{
+    background-color: black;
+    text-decoration: chartreuse;
+    text-align: center;
+}
+
+.icon-div .font-div{
+    width: 30%;
+}
+
+.progress-bar-animated{
+    width: 100%;
+}
+
+/*----------------responsive-------------------*/
+
+@media only screen and (max-width:668px){
+    .font-div{
+        padding: 42.5px 0px!important;
+    }
+}
